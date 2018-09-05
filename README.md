@@ -1,14 +1,13 @@
 A Simple Python Sniffer based on Winpcap with GUI
 
-Usage:
-1,pick a file or push "device" button to get devices
-2,push "start"
-3,if you wanna set a filter
-push "apply"
+# Usage:
+1. pick a file or push "device" button to get devices
+2. push "start"
+3. if you wanna set a filter, push "apply"
 
-Filter:
-key[>,=,<,-]value
-key:proto,len,No,info,time,dst,srt
+# Filter grammar:
+key [>,=,<,-] value
+key belong to (proto,len,No,info,time,dst,srt)
 
 "\-" means include
 
